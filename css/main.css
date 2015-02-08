@@ -1,0 +1,272 @@
+/******************************
+GENERAL
+******************************/
+body {
+   font-family:'Open-sans', sans-serif;
+   line-height:1.4em;
+}
+
+#wrapper {
+   max-width:940px;
+   margin: 0 auto;
+   padding: 0 5%;
+}
+
+a { 
+   text-decoration:none;
+   color: #3498db;
+}
+
+img {
+   max-width:100%;
+}
+
+h3 {
+   margin: 0 0 1em 0;
+}
+
+
+/******************************
+HEADING
+******************************/
+
+header {
+   float: left;
+   margin:0 0 30px 0;
+   padding:5px 0 0 0;
+   width: 100%;
+}
+
+#logo {
+   text-align:center;
+   margin:0;
+}
+
+.page_headline {
+   color:#34689C;
+   font-size: 1.75em;
+   text-align:center;
+}
+   
+   
+/******************************
+NAVIGATION
+******************************/
+
+nav {
+   text-align:center;
+   padding:10px 0;
+   margin:45px 0 0;
+}
+
+nav ul {
+   list-style:none;
+   margin: 0 10px;
+   padding:0;
+}
+
+nav li {
+   display:inline-block;
+}
+
+nav a {
+   font-weight:800;
+   padding: 15px 10px;
+}
+
+/******************************
+FOOTER
+******************************/
+
+footer {
+   text-align:center;
+   font-size:.75em;
+   text-align:center;
+   padding-top:50px;
+   clear:both;
+}
+
+.socialicon {
+   width:20px;
+   height:20px;
+   margin: 0 5px;
+}
+
+
+/******************************
+PAGE: CONTACT
+******************************/
+
+.contact-info {
+   list-style:none;
+   padding:0;
+   margin:0;
+   font-size:0.9em;
+}
+
+.contact-info a {
+   display:block;
+   min-height:20px;
+   background-repeat:no-repeat;
+   background-size: 20px 20px;
+   padding:0 0 0 30px;
+   margin:0 0 10px;
+}
+
+.contact-info li.phone a {
+   background-image:url('../img/phone.png');
+}
+
+.contact-info li.email a {
+   background-image:url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+   background-image:url('../img/twitter.png');
+}
+
+
+/******************************
+PAGE: ABOUT
+******************************/
+
+.profile-photo {
+   display:block;
+   max-width:180px;
+   margin:0 auto 30px;
+   border-radius:100%;
+}
+
+
+/******************************
+PAGE: ABOUT
+******************************/
+
+.profile-photo {
+   display:block;
+   max-width:180px;
+   margin:0 auto 30px;
+   border-radius:100%;
+}
+
+
+/******************************
+PAGE PORTFOLIO
+******************************/
+
+#gallery {
+   margin:0;
+   padding:0;
+   list-style:none;
+}
+
+#gallery li {
+   float:left;
+   width: 45%;
+   margin:2.5%;
+   background-color:#bdc3c7;
+   color:#ecf0f1;
+}
+
+#gallery li a p {
+   margin: 0;
+   padding: 5%;
+   font-size:0.75em;
+   color:#ecf0f1;
+}
+
+/******************************
+COLORS
+******************************/
+
+
+/* 
+Site Body
+*/
+body {
+   background:#fff;
+   color: #999;
+}
+
+/*
+green header
+*/
+header {
+   background: #6699CC; 
+   border-color:#34495e;
+}
+
+/*
+logo text
+*/
+
+#logo img {
+   width: 250px;
+   padding:20px 0 20px 0;
+}
+
+
+h1, h2 {
+   color: #fff;
+}
+
+/*
+nav bg on mobile
+*/
+nav {
+   background:#34495e;
+}
+
+/*
+color for nav links
+*/
+nav a, 
+nav a:visited {
+   color: #fff;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/*
+selected nav link
+*/
+nav a.selected,
+nav a:hover{
+   color: #34689C;
+}
+
+
+/******************************
+GOOGLE MAPS
+******************************/
+
+#map-canvas {
+  width: 400px;
+  height: 300px;
+}
+
+#map-canvas-2 {
+  width: 400px;
+  height: 300px;
+}
+
+
+/*****************************/
+
+
+ .maincontent {
+   font-family: arial, papyrus;
+   color:#6699CC;
+   font-size: 18px;
+   line-height:1.50em;
+   text-align: center;
+ }
+
+
+
+
+
